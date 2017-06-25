@@ -1,0 +1,101 @@
+.bar
+    &.bar-stable
+        border-color #000000
+        background-color #000000
+        background-image none
+        box-shadow 0 0 20px black
+        .title
+            color #dcdcdc
+
+.pane, .view
+    background-color #9E9E9E
+
+.card, .list-inset
+    background-color transparent
+
+.tabs
+    border-color #000000
+    background-color #000000
+    background-image none
+    color #dcdcdc
+    box-shadow 0 0 20px black
+
+ion-tabs
+    &.tabs-color-active-positive
+        .tab-item
+            color #dcdcdc
+
+.card .item:first-child, .list-inset .item:first-child, .padding > .list .item:first-child
+    border-radius 4px
+
+.item
+    border-color whitesmoke
+    background-color whitesmoke
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated
+    color #607D8B
+
+.img-full
+    width 100%
+
+.button-outline
+    &.button-outline
+        color black
+        background #444444
+        border-radius 4px
+        box-shadow 0 0 15px black
+        font-size 2em
+
+.button
+    &.button-dark
+        box-shadow 0 0 15px black
+
+.bs-20
+    box-shadow 0 0 20px black
+
+.item-divider,.item-text-wrap
+    border-color #2f2f2f
+    background-color #2f2f2f!important
+    color whitesmoke
+
+.item-divider
+    border-bottom-left-radius 0!important
+    border-bottom-right-radius 0!important
+
+.bounceIn
+    animation-name bounceIn
+    animation-duration 1s
+    animation-fill-mode both
+	
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}

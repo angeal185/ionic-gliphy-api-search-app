@@ -1,0 +1,10 @@
+{
+  "name": "gliphy.api.search",
+  "app_id": "000000",
+  "gulpStartupTasks": [
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*"
+  ]
+}

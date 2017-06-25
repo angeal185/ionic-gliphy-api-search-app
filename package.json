@@ -1,0 +1,35 @@
+{
+  "name": "gliphy.api.search",
+  "version": "1.0.0",
+  "description": "gliphy api search app",
+  "author": "ben eaves",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/gliphy-api-search-app.git"
+  },
+  "homepage": "https://github.com/angeal185/gliphy-api-search-app",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+	"gulp": "^3.5.6",
+    "gulp-concat": "^2.2.0",
+    "gulp-rename": "^1.2.0"
+    "gulp-stylus": "^2.6.0",
+    "gulp-util": "^2.2.14",
+    "shelljs": "^0.3.0"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "android",
+    "ios"
+  ]
+}
