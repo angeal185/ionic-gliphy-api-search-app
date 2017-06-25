@@ -1,7 +1,7 @@
 angular.module('starter.controllers', []).controller('DashCtrl', ($scope) ->
 ).controller('SearchCtrl', ($scope, $http, Giphy) ->
   $scope.search = {}
-  $scope.search.term = 'cats'
+  $scope.search.term = 'kittens'
   $scope.giphies = []
 
   $scope.performSearch = ->
